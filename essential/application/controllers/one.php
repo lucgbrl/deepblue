@@ -23,7 +23,7 @@ class One extends CI_Controller {
 		/**echo 'Método login e passado o parâmetro:';
 		 *echo $this->uri->segment(3);
 		**/
-		$this->apelido->salvar();
+		$this->apelido	->salvar();
 	}
 
 }
