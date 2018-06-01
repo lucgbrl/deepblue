@@ -14,6 +14,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<style>
 
+            .indigo
+            {
+                height: 1000px;
+                padding: 100px;
+                background: #2e3192;
+                color: #fff;
+            }
+            .indigo ul{
+                list-style: none;
+            }
+            .indigo ul li
+            {
+                border-radius: 10px;
+                background: #1f2463;
+                padding: 20px;
+                margin: 5px;
+            }
+            .indigo ul li:hover
+            {
+                opacity: .8;
+            }
+            .indigo h2
+            {
+                padding-bottom: 20px;
+            }
+            footer{
+                padding-top: 50px;
+                padding-bottom: 25px;
+            }
 			body
 			{
 
@@ -24,32 +53,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				height: 350px;
 				background-image: url('../static/img/bg-masthead.jpg');
 			}
-
 			nav{
 				padding-top: 25px;
 				height: 100px;
 			}
-
-			.drop
-			{
-				padding-left: -10px;
-				font-size: 40px;
-				text-align: center;
-				padding-top: 50px;
-				color: #fff;
-				position: relative;
-				height: 150px;
-				width: 150px;
-				background: teal;
-
-				border-radius: 75px 75px 75px 30px;
-			}
-
 			.col-md-12
 			{
 				margin-top: 25px;
-				
-				
 			}
 		</style>
 
